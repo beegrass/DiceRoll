@@ -94,7 +94,7 @@ public class DiceRoller extends JFrame
     gridConstraints = new GridBagConstraints();
     gridConstraints.gridx = 0;
     gridConstraints.gridy = 1;
-    gridConstraints.gridwidth=2;
+    gridConstraints.gridwidth= 2;
     gridConstraints.insets = new Insets(5, 5, 5, 5);
     getContentPane().add(rollButton, gridConstraints);
     rollButton.addActionListener(new ActionListener()
